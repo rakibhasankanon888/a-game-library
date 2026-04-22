@@ -12,8 +12,10 @@ import Register from "../pages/Register";
 import AuthLayout from "../layout/AuthLayout";
 import PrivateRoute from "../components/PrivateRoute";
 import Profile from "../pages/Profile";
-import NotFound from "../pages/NotFound"; 
+import NotFound from "../pages/NotFound";
 import Loading from "../pages/Loading";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
                 ),
                 loader: () => fetch("/game.json").then(res => res.json()),
                 hydrateFallbackElement: <Loading></Loading>,
+            },
+            {
+                path: "/about",
+                element: <About />
+            },
+            {
+                path: "/contact",
+                element: <Contact></Contact>
             },
             {
                 path: "/games",
@@ -67,7 +77,7 @@ const router = createBrowserRouter([
             { path: "/auth/register", element: <Register /> },
         ],
     },
-    
+
     {
         path: "*",
         element: <NotFound />,
