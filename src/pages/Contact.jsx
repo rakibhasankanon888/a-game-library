@@ -8,7 +8,7 @@ const Contact = () => {
                 className="h-[420px] bg-cover bg-center relative"
                 style={{
                     backgroundImage:
-                        "url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop')",
+                        "url('https://i.ibb.co.com/0jqjXs5W/game.jpg')",
                 }}
             >
                 <div className="absolute inset-0 bg-slate-900/30" />
