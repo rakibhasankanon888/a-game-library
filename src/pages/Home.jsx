@@ -14,6 +14,7 @@ import game4 from "../assets/images-2.png";
 
 
 import Newsletter from "../components/Newsletter";
+import AnimationPage from "../components/AnimationPage";
 
 const Home = () => {
   return (
@@ -68,6 +69,7 @@ const Home = () => {
 
       
       <Newsletter></Newsletter>
+      <AnimationPage></AnimationPage>
     </div>
   );
 };
