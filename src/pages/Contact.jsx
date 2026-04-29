@@ -15,10 +15,10 @@ const Contact = () => {
 
                 {/* Navbar */}
                 <nav className="relative z-10 flex justify-between items-center px-10 py-6 text-white text-sm font-semibold">
-                    <h1 className="text-3xl italic font-bold">june</h1>
+                    <h1 className="text-3xl italic font-bold">GameHub</h1>
                     <div className="flex gap-10 uppercase tracking-wide">
                         <a href="/">Home</a>
-                        <a href="/games">Work</a>
+                        <a href="/games">Games</a>
                         <a href="/about">About</a>
                         <a href="/contact">Contact</a>
                     </div>
