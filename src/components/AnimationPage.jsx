@@ -4,17 +4,14 @@ import { motion } from "framer-motion";
 const AnimationPage = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      
+
       {/* Game Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
+      {/* Background Image */}
+      <img
+        src="https://i.ibb.co.com/bRBNC7K4/image.jpg"
+        alt="Game Background"
         className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src="/game-fire-bg.mp4" type="video/mp4" />
-      </video>
+      />
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
